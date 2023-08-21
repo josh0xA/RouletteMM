@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="styles/sheet.css">
+<head>
+    <title>RouletteMM</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <center>
+        <h3>Computational Model for American Roulette</h3>
+        <h3><i>By Josh Schiavone</i></h3><h4>School of Computer Science at Carleton University</h4>
+        <p class="p1">This project uses the law of large numbers. <br/>As you increase the number of spins, the sample mean converges closer to the theoretical mean.</p>
+        <input type="number" min="1" id="trials" placeholder="Number of Spins" />
+        <input type="number" min="1" id="bet_amount" placeholder="Bet Amount" /><br/>             
+        <label class="container">Red/Black/Odd/Even/Low/High
+            <input type="checkbox" id="bet_option_colour" />
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">1-12/13-24/25-36
+            <input type="checkbox" id="bet_option_dozen" />
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Combination/First Five
+            <input type="checkbox" id="bet_option_combination" />
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Six Line
+            <input type="checkbox" id="bet_option_sixline" />
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Corner
+            <input type="checkbox" id="bet_option_corner" />
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Street
+            <input type="checkbox" id="bet_option_street" />
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Split
+            <input type="checkbox" id="bet_option_split" />
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">Straight/Single Number
+            <input type="checkbox" id="bet_option_single" />
+            <span class="checkmark"></span>
+        </label>
+    
+        
+        <button onclick="simulate_lln()" id="run">Simulate</button>
+        <button onclick="clearTable()" id="reset">Clear Table</button>
+        <p id="summary"></p>
+        <div class="chart-container" style="position: relative; height:30vh; width:65vw">
+            <canvas id="myChart"></canvas>
+        </div>
+    </center>
+    <table id="stats1" class="left">
+        <caption>Statistics </caption>
+        <tr>
+            <th>No. of Trials | </th>
+            <th>Closest Probability Simulated |</th>
+            <th>Average (p/q) |</th>
+            <th>Payout</th>
+        </tr>
+        <tr>
+            <td id="trials"></td>
+            <td id="simulated_prob"></td>
+            <td id="sample_mean"></td>
+        </tr>
+    </table>
+    <table id="ev" class="right">
+        <caption>Expected Value Chart</caption>
+        <tr>
+            <th>Expected Value | </th>
+            <th>Expected Value / Hour | </th>
+            <th>Expected Value / Day </th>
+
+        </tr>
+        <tr>
+            <td id="expected_value"></td>
+        </tr>
+    </table>
+    <script src="public/js/index.js"></script>
+</body>
+</html>
