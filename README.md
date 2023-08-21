@@ -14,5 +14,8 @@ Try here: https://josh0xA.github.io/RouletteMM
 After each trial, we obtain an $\overline{X}$ and from the simulation as we increase the number of spins, that sample mean ( $\overline{X}$ ) converges closer and closer to the theoretitcal mean ( $\mu$ ). Thus, <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\overline{X}_n \to \mu \quad\textrm{as}\ n \to \infty \ \textrm{where, } \overline{X}_n=\left(\frac{1}{n}\right)\sum X_i$
 
+## Visual Aid
+<img src="https://github.com/josh0xA/RouletteMM/blob/master/RouletteMM_example.png?raw=true"> 
+
 
    
