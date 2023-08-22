@@ -17,7 +17,7 @@ After each trial, we obtain an $\overline{X}$ and from the simulation as we incr
 ## Simple EV Principal 
 Expected Value (per trial) is evaluated as such: <br/> 
 Since, $E(X) = \mu = \sum x P(x)$. This would mean in our case we would assess the following: <br/> 
-<space><space><space><space><space> $E(X) = (Pr(x) \cdot x') - (Pr(\neg x) \cdot b)$ where, $x'$ is the payout for $x$ and $b$ is the bet amount. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $E(X) = (Pr(x) \cdot x') - (Pr(\neg x) \cdot b)$ where, $x'$ is the payout for $x$ and $b$ is the bet amount. 
 
 ## Visual Aid (spins=1000, bet=8)
 <img src="https://github.com/josh0xA/RouletteMM/blob/master/RouletteMM_example.png?raw=true"> 
