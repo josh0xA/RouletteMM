@@ -17,6 +17,7 @@ After each trial, we obtain an $\overline{X}$ and from the simulation as we incr
 ## Simple EV Principal 
 Expected Value (per trial) is evaluated as such: <br/> 
 𝐸(𝑋)=𝜇=∑𝑥𝑃(𝑥).
+$E(X) = \mu = \sum x P(x)$
 
 ## Visual Aid (spins=1000, bet=8)
 <img src="https://github.com/josh0xA/RouletteMM/blob/master/RouletteMM_example.png?raw=true"> 
